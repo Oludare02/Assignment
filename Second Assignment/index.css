@@ -30,8 +30,8 @@
 
 .head{
   margin-bottom: 70px;
-  margin-right: 0;
-  margin-left: -50px;
+  margin-right: 50px;
+  margin-left: -30px;
 }
 
 h1.first-header {
@@ -96,7 +96,7 @@ form .main-user-info .user-input-box{
   box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10);
   border-radius: 3px;
   margin: 0 28px;
-  margin-left: 100px;
+  margin-left: 30px;
 }
 
 div#password{
