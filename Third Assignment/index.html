@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <img src="./wppusher-logo copy.png" alt="WP" class="top" />
+
+        <nav class="navbar">
+          <ul>
+            <li><a href="#">Download</a></li>
+            <li><a href="#">Learn more</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Help</a></li>
+            <li><button>Account</button></li>
+          </ul>
+        </nav>
+      </div>
+    </header>  
+
+    <div class="container">
+      <div class="leftside">
+        <h1 class="checkout">Checkout</h1>
+        <p class="subheader">Your Basic Information</p>
+        
+          <form action="Submit" method="POST">
+
+            <div class="firstname">
+            <label for="firstname">Firstname</label>
+            <input type="text" name="Name" id="" placeholder="Jane" required />
+            </div>
+
+            <div class="lastname">
+            <label for="lastname">Last Name</label>
+            <input type="text" name="Name" id="" placeholder="Doe" required />
+            </div>
+
+            <div class="email">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id=""
+                placeholder="janedoe@example.com"
+                required>
+            </div>
+            
+            <div class="credit">
+            <label for="card">Credit Card</label>
+            <input type="text" placeholder="Card Number MM/YY CVV" class="card">
+            </div>
+
+            <input type="submit" value="Buy WP Pusher" class="button">
+
+          </form>
+        
+          <p class="subheader">Your Payment Information</p>
+          <p class="left_footer">Need any help? Don’t hesitate to contact
+        support!</p>
+
+        <img src="./powered_by_stripe.png" alt="stripe" class="left_footer_image">
+          
+    </div>
+
+      <div class="rightside">
+        <p>Freelance</p>
+        <p class="price"><sup>$</sup>99<sub>/year</sub></p>
+        <p class="italics">Automatically renews after 1 year</p>
+
+        <div class="icon">
+        <img src="mark icon.png" alt=""><p class="icon_text">Use on 5 client sites</p> </div>
+        <div class="icon"> 
+        <img src="mark icon.png" alt=""><p class="icon_text">Private repositories</p> </div>
+        <div class="icon">
+        <img src="mark icon.png" alt=""><p class="icon_text">Email support</p>
+        </div>
+
+        <p class="plan">Need 20 client sites? Switch to the Agency plan.</p>
+
+        <hr>
+
+        <pv class="footer_word">
+          FTP is horrible to deal with. WP Pusher solves that issue, and the
+          customer support is awesome!
+        </p>
+
+        <img src="./Bitmap.png" alt="author_image" class="author" />
+        <p class="right_footer">Kirk Beard</p>
+      </div>
+      
+      <div class="footer">
+        <p> © 2018 WP Pusher IVS  ·  Terms of Service</p>
+    </div>
+    </div>
+  </body>
+</html>
