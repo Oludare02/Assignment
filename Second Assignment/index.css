@@ -133,6 +133,10 @@ div#password{
   
 }
 
+.footer-link{
+  color: #2EC4B6;
+}
+
 @media (max-width: 584px){
   .container{
     max-width: 100%;
